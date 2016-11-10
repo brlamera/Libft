@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strclr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/19 15:28:20 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/19 15:31:33 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 02:52:08 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:14:12 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Clear the string s.
+*/
 
 #include "libft.h"
 
@@ -16,10 +20,8 @@ void	ft_strclr(char *s)
 {
 	size_t	i;
 
-	i = 0;
-	while (s[i])
-	{
-		s[i] = '\0';
-		i++;
-	}
+	if (s == NULL)
+		return ;
+	i = ft_strlen(s);
+	ft_memset(s, '\0', i);
 }

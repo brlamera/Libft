@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:05:05 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 20:50:44 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:46:04 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:46:06 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Alphanumeric character test.
+*/
 
 #include "libft.h"
 

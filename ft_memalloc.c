@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memalloc.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:17:58 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/25 14:40:07 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 04:48:30 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:10:07 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocate and return a "fresh" memory zone.
+*/
 
 #include "libft.h"
 

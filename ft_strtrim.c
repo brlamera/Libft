@@ -3,37 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 19:56:19 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/24 17:25:03 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 00:34:31 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:40:35 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Return a copy of the string, without the blank space from the start and the
+** end of the string.
+*/
+
 #include "libft.h"
 
-char	*ft_strtrim(char const *s)
+char		*ft_strtrim(char const *s)
 {
-	size_t	bfr;
-	size_t	keep;
-	size_t	i;
+	unsigned int	i;
+	size_t			len;
+	char			*ret;
 
+	if (!s)
+		return (0);
 	i = 0;
-	bfr = 0;
-	keep = 0;
-	while (s[bfr] == ' ' || s[bfr] == '\t' || s[bfr] == '\n')
-		bfr++;
-	while (s[i] != '\0')
-	{
-		if (s[i] != ' ' && s[i] != '\t' && s[i] != '\n')
-		{
-			i++;
-			keep = i;
-		}
-		else
-			i++;
-	}
-	if (keep == 0)
-		return (ft_strdup(""));
-	return (ft_strsub(s, bfr, (keep - bfr)));
+	while (ft_isspace(s[i]))
+		i++;
+	len = ft_strlen(s) - 1;
+	while (len > i && ft_isspace(s[len]))
+		len--;
+	if (len < i)
+		return (ret = ft_strdup(""));
+	return (ret = ft_strsub(s, i, len - (size_t)i + 1));
 }

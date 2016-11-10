@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/28 04:18:08 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 19:39:48 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:10:30 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:10:32 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Locate byte in byte string.
+*/
 
 #include "libft.h"
 

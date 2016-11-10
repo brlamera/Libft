@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:24:56 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 18:29:08 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:17:56 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:17:56 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Make a new string.
+*/
 
 #include "libft.h"
 

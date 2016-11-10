@@ -3,27 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 06:20:04 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/25 15:26:53 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:11:30 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:11:32 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Fill a byte string with a byte value.
+*/
 
 #include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {
 	unsigned char	a;
-	char			*s2;
+	char			*b;
 	unsigned int	i;
 
 	i = 0;
 	a = ((char)c);
-	s2 = (char*)s;
+	b = (char*)s;
 	while (i < n)
 	{
-		s2[i] = a;
+		b[i] = a;
 		i++;
 	}
 	return (s);

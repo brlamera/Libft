@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/28 05:11:01 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/25 15:28:53 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:45:35 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:45:39 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Convert ASCII string to integer.
+*/
 
 #include "libft.h"
 

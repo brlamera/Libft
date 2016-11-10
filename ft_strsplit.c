@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 20:08:06 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/16 16:04:26 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 23:46:52 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:18:33 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return an array of string, segmented by the character c.
+*/
 
 #include "libft.h"
 

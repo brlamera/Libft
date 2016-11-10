@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:29:26 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 18:31:18 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:14:51 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:14:52 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Free the string.
+*/
 
 #include "libft.h"
 

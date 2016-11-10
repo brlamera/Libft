@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/26 19:52:32 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:23:36 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 04:13:01 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 04:49:28 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Make a new link with the array content and his size.
+*/
 
 #include "libft.h"
 

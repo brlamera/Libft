@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memccpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/28 04:17:52 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/25 14:47:52 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:10:17 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:10:21 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copy string until character found.
+*/
 
 #include "libft.h"
 

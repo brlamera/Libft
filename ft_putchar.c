@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/19 15:33:55 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/19 15:35:18 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:11:51 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:11:52 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Write the chararcter c.
+*/
 
 #include "libft.h"
 

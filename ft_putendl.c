@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/19 15:41:49 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/26 03:32:26 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:12:13 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:12:14 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Display the string s.
+*/
 
 #include "libft.h"
 

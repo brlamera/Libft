@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:31:42 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 18:38:55 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:15:26 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:15:27 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Apply the function f to each character of the string s.
+*/
 
 #include "libft.h"
 

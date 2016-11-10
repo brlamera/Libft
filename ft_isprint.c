@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:28:07 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/27 15:29:47 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:47:42 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:47:44 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Printable charater test.
+*/
 
 #include "libft.h"
 

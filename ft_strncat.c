@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 03:43:57 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/27 14:44:58 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 22:26:44 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:16:47 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Concatenate strings, but not more than n characters from s2.
+*/
 
 #include "libft.h"
 

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:31:27 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/28 05:21:10 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 01:00:41 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 01:01:16 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Lower case to upper case letter conversion.
+*/
 
 #include "libft.h"
 

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/19 15:10:05 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/24 16:39:29 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:16:15 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:16:16 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return the lenght of the string.
+*/
 
 #include "libft.h"
 

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:01:22 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/27 15:03:47 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:47:30 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:47:33 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Digital character test.
+*/
 
 #include "libft.h"
 

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 19:39:46 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 19:56:00 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:15:48 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:15:50 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return a "new" string from the concatenation of s1 and s2.
+*/
 
 #include "libft.h"
 

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/27 13:17:09 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:23:26 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 04:08:36 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 04:09:59 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Apply the function f on all the link.
+*/
 
 #include "libft.h"
 

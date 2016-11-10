@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 20:43:57 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/24 16:38:18 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:12:46 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:12:48 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Display the character n.
+*/
 
 #include "libft.h"
 

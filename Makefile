@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: blameran <blameran@student.42.fr>          +#+  +:+       +#+         #
+#    By: brlamera <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2016/05/16 16:06:19 by blameran          #+#    #+#              #
-#    Updated: 2016/05/27 13:24:46 by blameran         ###   ########.fr        #
+#    Created: 2016/11/10 03:45:14 by brlamera          #+#    #+#              #
+#    Updated: 2016/11/10 03:45:22 by brlamera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,6 +22,7 @@ SRCS = ft_atoi.c \
 	   ft_isascii.c \
 	   ft_isdigit.c \
 	   ft_isprint.c \
+	   ft_isspace.c \
 	   ft_itoa.c \
 	   ft_lstdelone.c \
 	   ft_lstnew.c \

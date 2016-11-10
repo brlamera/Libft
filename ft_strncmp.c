@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:56:11 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 17:46:38 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 22:29:21 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:17:03 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compare strings, but not more than n chararters.
+*/
 
 #include "libft.h"
 

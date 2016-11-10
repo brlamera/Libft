@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/27 12:54:25 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:07:32 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 04:06:39 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 04:08:24 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Take the adress of an array and free it.
+*/
 
 #include "libft.h"
 

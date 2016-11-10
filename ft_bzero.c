@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 06:42:53 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 17:37:55 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:45:49 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:45:51 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Write n zeroed bytes to the string s.
+*/
 
 #include "libft.h"
 

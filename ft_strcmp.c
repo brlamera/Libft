@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/19 15:59:50 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 17:44:35 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:20:36 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:20:40 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compare strings s1 and s2.
+*/
 
 #include "libft.h"
 

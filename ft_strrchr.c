@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 10:37:32 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/26 10:39:43 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 23:28:19 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:18:12 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Locate the last occurence of c in string.
+*/
 
 #include "libft.h"
 

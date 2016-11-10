@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/27 13:15:11 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:23:02 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:49:21 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:07:21 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Add "new" in top of the list.
+*/
 
 #include "libft.h"
 

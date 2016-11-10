@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/27 13:05:20 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:07:02 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:57:33 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 04:05:45 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Take the adress of an array and free it and all of the successor.
+*/
 
 #include "libft.h"
 

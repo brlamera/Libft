@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/28 04:18:32 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/25 15:28:12 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:10:52 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:10:58 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copy memory area.
+*/
 
 #include "libft.h"
 

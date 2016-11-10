@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:43:45 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 20:56:46 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:16:25 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:16:26 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Apply the function f on each character of the string s to an another string.
+*/
 
 #include "libft.h"
 

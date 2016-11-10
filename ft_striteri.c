@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:39:50 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 18:43:23 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:15:35 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:15:36 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Same as striter, with the index.
+*/
 
 #include "libft.h"
 

@@ -1,34 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/10 05:15:02 by brlamera          #+#    #+#             */
-/*   Updated: 2016/11/10 05:15:03 by brlamera         ###   ########.fr       */
+/*   Created: 2016/11/10 03:40:55 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:48:43 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-** Save a copy of a string.
+** Space character test.
 */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s1)
+int		ft_isspace(int c)
 {
-	char		*s2;
-	int			i;
-
-	i = 0;
-	if (!(s2 = malloc(sizeof(char) * (ft_strlen(s1) + 1))))
-		return (NULL);
-	while (s1[i])
-	{
-		s2[i] = s1[i];
-		i++;
-	}
-	s2[i] = '\0';
-	return (s2);
+	c = (unsigned char)c;
+	if (c == '\t' || c == '\n' || c == '\v' || c == '\f' || c == '\r'
+			|| c == ' ')
+		return (1);
+	return (0);
 }

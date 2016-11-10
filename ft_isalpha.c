@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 03:26:16 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/18 07:42:08 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:46:16 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:46:34 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Alphabetic charcter test.
+*/
 
 #include "libft.h"
 

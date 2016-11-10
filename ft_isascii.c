@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 15:18:44 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/28 05:19:48 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 03:47:00 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:47:03 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** ASCII character test.
+*/
 
 #include "libft.h"
 

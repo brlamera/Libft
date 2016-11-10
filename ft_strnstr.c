@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/27 16:09:38 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/28 05:21:27 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 23:25:12 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:18:05 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Locate the first occurence of little in big, not more than len characters
+** are searched.
+*/
 
 #include "libft.h"
 

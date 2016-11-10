@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/27 13:19:29 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/27 13:28:06 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 04:10:10 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 04:12:50 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Apply the function f on all the links, and put them in a new list.
+*/
 
 #include "libft.h"
 

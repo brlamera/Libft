@@ -3,27 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 19:28:55 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/24 17:36:38 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 00:24:35 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 03:29:18 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return a string section from the initial string.
+*/
 
 #include "libft.h"
 
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
 	char	*pe;
-	int		louse;
+	size_t	louse;
 
-	pe = malloc(sizeof(char) * len + 1);
-	louse = 0;
-	if (!pe)
+	if (s == NULL)
 		return (NULL);
-	while (louse != len)
+	if (start > (unsigned long)ft_strlen(s))
+		return (NULL);
+	if ((pe = (char *)malloc(sizeof(char) * (len + 1))) == NULL)
+		return (NULL);
+	louse = 0;
+	while (louse < len && s[start] != '\0')
 	{
-		pe[louse] = s[start + louse];
+		pe[louse] = s[start];
+		start++;
 		louse++;
 	}
 	pe[louse] = '\0';

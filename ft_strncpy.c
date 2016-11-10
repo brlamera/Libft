@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 04:50:54 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/24 15:19:30 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/09 22:29:41 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:17:20 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copy strings, at most len characters from src into dst.
+*/
 
 #include "libft.h"
 

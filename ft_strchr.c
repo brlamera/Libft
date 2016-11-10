@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 10:34:25 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/26 10:37:02 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:14:03 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:14:05 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Locate character in string.
+*/
 
 #include "libft.h"
 

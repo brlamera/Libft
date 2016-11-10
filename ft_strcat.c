@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 03:34:46 by blameran          #+#    #+#             */
-/*   Updated: 2016/04/27 14:44:37 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:13:31 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:13:34 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Concatenate strings s1 and s2.
+*/
 
 #include "libft.h"
 

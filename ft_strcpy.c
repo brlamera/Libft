@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/26 03:21:34 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 17:49:53 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:14:37 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:14:40 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copy strings str to dst.
+*/
 
 #include "libft.h"
 

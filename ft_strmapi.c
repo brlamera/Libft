@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 18:49:18 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 20:57:01 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:16:38 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:16:39 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Same as strmap, with the index.
+*/
 
 #include "libft.h"
 

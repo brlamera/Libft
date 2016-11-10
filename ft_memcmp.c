@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/04/28 04:25:18 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/26 19:40:30 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:10:41 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:10:44 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compare byte string.
+*/
 
 #include "libft.h"
 

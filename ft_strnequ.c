@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnequ.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blameran <blameran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: brlamera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/12 19:22:33 by blameran          #+#    #+#             */
-/*   Updated: 2016/05/12 19:28:26 by blameran         ###   ########.fr       */
+/*   Created: 2016/11/10 05:17:32 by brlamera          #+#    #+#             */
+/*   Updated: 2016/11/10 05:17:33 by brlamera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compare lexicographically s1 and s2, but not more than n characters.
+*/
 
 #include "libft.h"
 
